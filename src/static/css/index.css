@@ -1,0 +1,96 @@
+html, body{
+  min-width: 824px;
+  height: 100%;
+  font-family: Lato, "Microsoft Jhenghei", "Hiragino Sans GB", "Microsoft YaHei", sans-serif !important;
+  background-color: rgba(245, 245, 213);
+}
+
+/* 居中样式 */
+.center {
+  margin: 0 auto;
+}
+
+div#root {
+  width: 1200px;
+}
+
+/* header部分 */
+header {
+  padding-top: 40px;
+  border-bottom: 1px solid rgba(211, 211, 211);
+}
+
+header h1 {
+  font-size: 24px;
+  color: #556677;
+  padding-bottom: 10px;
+}
+
+/* main部分 */
+main {
+  position: relative;
+}
+
+main .container {
+  width: 70%;
+}
+
+.container h1 {
+  font-size: 32px;
+  border-bottom: 1px solid rgba(211, 211, 211);
+}
+
+.container .article div {
+  padding-left: 16px;
+}
+
+.container .article .contents {
+  padding-top: 20px;
+}
+
+.container .article h2 {
+  font-size: 18px;
+  border-bottom: 1px solid rgba(211, 211, 211);
+  width: 300px;
+}
+
+.container div.article {
+  padding: 16px;
+}
+
+.container .article p {
+  text-indent: 2em;
+  line-height: 2.4em;
+  padding-top: 16px;
+}
+
+/* entry部分 */
+main .entry {
+  border: 1px solid rgba(211, 211, 211);
+  border-radius: 6%;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: absolute;
+  left: 80%;
+  top: 30px;
+}
+
+.entry p {
+  padding-top: 16px;
+  width: 220px;
+  font-size: 26px;
+  border-bottom: 1px solid rgba(211, 211, 211);
+}
+
+.entry ul {
+  padding-top: 20px;
+}
+
+.entry ul li {
+  padding-bottom: 24px;
+}
+
+.entry ul li a {
+  text-decoration: none;
+  color: inherit;
+}
