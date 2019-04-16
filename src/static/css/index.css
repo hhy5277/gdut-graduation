@@ -26,7 +26,7 @@ header h1 {
   padding-bottom: 10px;
 }
 
-/* main部分 */
+/* main主体部分 */
 main {
   position: relative;
 }
@@ -35,44 +35,38 @@ main .container {
   width: 70%;
 }
 
+/* 设置一级标题样式 */
 .container h1 {
   font-size: 32px;
   border-bottom: 1px solid rgba(211, 211, 211);
 }
 
-.container .article div {
+.container .details {
   padding-left: 16px;
 }
 
-.container .article .contents {
+/* 设置二级标题样式 */
+.container .details h2 {
+  font-size: 22px;
+  border-bottom: 1px solid rgba(211, 211, 211);
+  width: 400px;
   padding-top: 20px;
 }
 
-.container .article h2 {
-  font-size: 18px;
-  border-bottom: 1px solid rgba(211, 211, 211);
-  width: 300px;
-}
-
-.container div.article {
-  padding: 16px;
-}
-
-.container .article p {
+.container .details p {
   text-indent: 2em;
   line-height: 2.4em;
-  padding-top: 16px;
 }
 
-/* entry部分 */
+/* entry目录部分 */
 main .entry {
   border: 1px solid rgba(211, 211, 211);
   border-radius: 6%;
   padding-left: 10px;
   padding-right: 10px;
-  position: absolute;
-  left: 80%;
-  top: 30px;
+  position: fixed;
+  left: 72%;
+  top: 100px;
 }
 
 .entry p {
@@ -82,15 +76,33 @@ main .entry {
   border-bottom: 1px solid rgba(211, 211, 211);
 }
 
-.entry ul {
-  padding-top: 20px;
-}
-
 .entry ul li {
-  padding-bottom: 24px;
+  padding: 12px;
 }
 
+/* 覆盖掉a标签默认样式 */
 .entry ul li a {
   text-decoration: none;
   color: inherit;
+}
+
+.entry ul li a:hover {
+  color: rgba(244, 144, 55);
+}
+
+/* Foot部分 */
+footer {
+  border-top: 1px solid rgba(211, 211, 211);
+  width: 1200px;
+}
+footer ul li {
+  float: right;
+  padding: 16px;
+}
+footer.center ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+footer ul li:hover {
+  color: rgba(244, 144, 55);
 }
